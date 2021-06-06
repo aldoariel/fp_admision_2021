@@ -6,18 +6,18 @@ Proceso EJ1
 	Escribir 'Digite el segundo número '
 	Leer B
 	
-	Si A> B
+	Si A= B
 		
-		Escribir 'A es_mayor'
+		Escribir 'Introduzca Valores distintos'
+	SiNo
+		Si A=B
+			
+			Escribir 'B es_menor'
+		SiNo 
+							
+			Escribir 'A es_menor'
+		Finsi 
 	Finsi 
-	Si A<B
-		
-		Escribir 'B es_mayor'
-	Finsi 
-
-	Si A=B
-		
-		Escribir 'Iguales'
-	Finsi 
+	
 
 FinProceso
